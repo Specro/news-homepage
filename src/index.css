@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .transition-discrete {
+        transition-behavior: allow-discrete;
+    }
+}
+
+@starting-style {
+    .menu {
+        @apply opacity-0;
+    }
+}
